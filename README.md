@@ -21,6 +21,9 @@ It quizzes you, explains tough concepts with **3D visuals**, adapts to your lear
 
 ---
 
+## 🔗 Preview  
+👉 [Click here to try IQNova]([https://your-deployment-link.com](https://dsaishared.blob.core.windows.net/uxcceleratecontainer/projects/68ac64678ecfc2752de083d4/webpages/consolidated_webpages/signup_page.html))  
+
 ## ⚡ Tech Stack  
 - Frontend: React + Tailwind CSS + Three.js  
 - Backend: Node.js + MongoDB  
