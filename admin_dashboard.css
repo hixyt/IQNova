@@ -1,0 +1,58 @@
+/* admin_dashboard.css - page specific styles for Admin Dashboard */
+/* Use Poppins as brand typeface on this page */
+body {
+    font-family: "Poppins", var(--font-sans)
+    }
+/* Layout adjustments so main content sits well with the offcanvas sidebar */
+@media (min-width: 992px) {
+    #appSidebar {
+        position: sticky;
+        top: 0;
+        height: calc(100vh)
+        }
+    }
+/* Card interactions */
+.card-hoverable {
+    transition: transform 0.15s ease, box-shadow 0.2s ease
+    }
+.card-hoverable:hover {
+    transform: translatey(-2px);
+    box-shadow: var(--shadow-2)
+    }
+.cursor-pointer {
+    cursor: pointer
+    }
+/* Chart container sizing */
+.chart-container {
+    position: relative;
+    height: 320px
+    }
+.chart-loader {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+    display: none
+    }
+/* Table header clickable affordance */
+#signupsTable thead th[data-sort] {
+    user-select: none;
+    white-space: nowrap
+    }
+#signupsTable thead th[data-sort]:hover {
+    background: var(--neutral-soft)
+    }
+/* Breadcrumb subtle spacing */
+.breadcrumb {
+    margin-bottom: 0
+    }
+/* Footer spacing to avoid overlap with toasts on mobile */
+@media (max-width: 575.98px) {
+    footer {
+        padding-bottom: 64px
+        }
+    }
+/* Tighten dropdown in header filters */
+.dropdown-menu .form-label {
+    font-weight: 600
+    }
